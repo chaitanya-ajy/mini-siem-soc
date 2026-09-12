@@ -1,0 +1,14 @@
+.incidents-page { display: flex; flex-direction: column; gap: 1rem; }
+.page-header { display: flex; justify-content: space-between; align-items: center; }
+.primary-btn { background: #38bdf8; color: #0a0f1a; font-weight: 700; padding: .5rem 1rem; border-radius: 6px; border: none; font-size: .85rem; transition: all .2s; }
+.primary-btn:hover { background: #7dd3fc; }
+.secondary-btn { background: transparent; border: 1px solid #475569; color: #94a3b8; padding: .5rem 1rem; border-radius: 6px; font-size: .85rem; transition: all .2s; }
+.secondary-btn:hover { background: #1e293b; }
+.modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,.6); display: flex; justify-content: center; align-items: center; z-index: 100; }
+.modal { background: #1a1f2e; border: 1px solid #2a3342; border-radius: 12px; padding: 1.5rem; width: 420px; max-width: 90vw; }
+.modal h3 { color: #e2e8f0; margin-bottom: 1rem; }
+.modal-field { display: flex; flex-direction: column; gap: .3rem; margin-bottom: .75rem; }
+.modal-field label { color: #94a3b8; font-size: .8rem; font-weight: 600; }
+.modal-field input, .modal-field textarea, .modal-field select { background: #0f172a; border: 1px solid #334155; border-radius: 6px; padding: .5rem .7rem; color: #e2e8f0; font-size: .85rem; outline: none; }
+.modal-field input:focus, .modal-field textarea:focus, .modal-field select:focus { border-color: #38bdf8; }
+.modal-actions { display: flex; justify-content: flex-end; gap: .5rem; margin-top: 1rem; }

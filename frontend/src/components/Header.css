@@ -1,0 +1,6 @@
+.header { display: flex; justify-content: space-between; align-items: center; padding: .75rem 1.5rem; background: #1a1f2e; border-bottom: 1px solid #2a3342; }
+.page-title { font-size: 1.1rem; color: #e2e8f0; font-weight: 600; }
+.header-right { display: flex; align-items: center; gap: 1rem; }
+.header-user { color: #94a3b8; font-size: .85rem; background: #22283a; padding: .3rem .7rem; border-radius: 4px; }
+.header-btn { background: #1e3a5f; border: 1px solid #38bdf8; color: #38bdf8; padding: .35rem .8rem; border-radius: 6px; font-size: .8rem; transition: all .2s; }
+.header-btn:hover { background: #38bdf8; color: #0a0f1a; }
